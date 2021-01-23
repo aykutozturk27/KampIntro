@@ -6,7 +6,6 @@ namespace OOP1
     {
         public void Add(Product product)
         {
-            //product.ProductName = "Kamera";
             Console.WriteLine(product.ProductName + " eklendi.");
         }
 
@@ -24,10 +23,5 @@ namespace OOP1
         {
             Console.WriteLine(sayi1 + sayi2);
         }
-
-        //public void BiseyYap(int sayi)
-        //{
-        //    sayi = 99;
-        //}
     }
 }

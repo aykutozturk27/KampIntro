@@ -19,14 +19,10 @@ namespace OOP1
             //Camel case - ilk harf küçük diğer kelimenin ilk harfi büyük
             //case sensitive - küçük büyük harf duyarlı
             ProductManager productManager = new ProductManager();
-            productManager.Add(product1);//referans tip - kamera
+            productManager.Add(product1);
             Console.WriteLine(product1.ProductName);
 
             productManager.Topla2(3, 6);
-
-            //int sayi = 100;
-            //productManager.BiseyYap(sayi);
-            //Console.WriteLine(sayi);
 
             //int,double,bool ...değer tip
             //diziler,class,abstract class, interface .. referans tip
